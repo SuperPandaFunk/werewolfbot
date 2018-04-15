@@ -1,0 +1,122 @@
+{
+    "roles":[
+        {
+                "type":"Villager",
+                "icon":"👨",
+                "description":"During the day you discuss with the village who could be a werewolf and decide on a person to kill.",
+                "categorie":"normal",
+                "developped":false
+        },
+        {
+                "type": "Werewolf",
+                "icon": "🐺",
+                "description": "At night you wake up and together with your werewolf friends decide on a victim to kill. During the day you try to pose as a regular villager and not get yourself killed.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Seer",
+                "icon": "👁️",
+                "description": "At each night you can uncover the role of another player.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Doctor",
+                "icon": "💊",
+                "description": "At night you awaken and select a player which cannot be killed by the werewolves that night. You cannot protect the same player two nights in a row.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Hunter",
+                "icon": "🤠",
+                "description": "When you die you can select another person to kill with you.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Witch",
+                "icon": "🕸️",
+                "description": "You have two potions which you can use once during the night: one which will save another player from being killed by the werewolves, and one poison which will kill another player.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Priest",
+                "icon": "🙏",
+                "description": "You can use holy water on another player. If that player is a werewolf, he dies. If he is not a werewolf, you die. You can only do this once.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Little girl",
+                "icon": "👧",
+                "description": "If you open your eyes, there is a 20% chance you spot a werewolf. But there is also a 5% chance the werewolves catch and kill you.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Mayor",
+                "icon": "⚖️",
+                "description": "If you reveal your role to the village, your vote counts twice during the day.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Bodyguard",
+                "icon": "💪️",
+                "description": "At night you may select a player to protect. If the werewolves try to kill that player, you die instead.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Prince",
+                "icon": "🤴",
+                "description": "The first time the village tries to kill you, you show your role and survive.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Gunner",
+                "icon": "🔫",
+                "description": "You have two bullets which you can use to kill somebody. The shots are very loud, your role will be revealed after the first bullet.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Harlot",
+                "icon": "💋",
+                "description": "At night you can stay with another player. If that player is a werewolf, or is killed by one, you die as well. If the werewolves try to kill you and you are visiting another player, you survive.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Leprous",
+                "icon": "💀",
+                "description": "When you are killed by werewolves, they do not kill again in the following night.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Serial killer",
+                "icon": "🔪",
+                "description": "Each night you can kill another player. If you are the last person alive you win.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+                "type": "Doppelganger",
+                "icon": "🎭",
+                "description": "In the first night you select one player. If that player dies you take his role.",
+                "categorie": "normal",
+                "developped": false
+        },
+        {
+            "type": "Cupid",
+            "icon": "💘",
+            "description": "During the first night you select two people to be in love couple. That couple then only wins if they are the last two people alive. If one person of the couple dies at any time, the other person immediately dies as well.",
+            "categorie": "normal",
+            "developped": false
+    }]
+}
