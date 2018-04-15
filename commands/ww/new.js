@@ -15,7 +15,7 @@ class newgameCommand extends Discord.Command {
     async run(message, args) {
             if (global.servers[message.guild.id])
             {
-                message.say(`A game is already initialize`);
+                message.reply(`A game is already initialize`);
             }else
             {
                 global.servers[message.guild.id] = 
